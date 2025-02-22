@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova SC", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffe2e2;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #4a4040;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4a4040;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.post {
+    background: rgb(255, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background-color: #3b3435;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #312b2c;
+}

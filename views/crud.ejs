@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Blog</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <h1>CRUD Blog</h1>
+
+    <form id="blogForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="body" placeholder="Post content" required></textarea>
+        <input type="text" id="author" placeholder="Author (optional)">
+        <button type="submit">Add Post</button>
+    </form>
+
+    <h2>Posts List</h2>
+    <div id="posts"></div>
+
+    <h2>Search Blog by ID</h2>
+    <input type="text" id="searchId" placeholder="Enter Blog ID">
+    <button onclick="searchById()">Search</button>
+    <button onclick="loadPosts()">Get All</button>
+
+    <a href="/home">Go Back</a>
+
+    <script src="/script.js"></script>
+</body>
+</html>
